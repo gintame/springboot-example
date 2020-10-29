@@ -1,0 +1,23 @@
+person:
+  # 四、配置文件占位符
+  # 可以使用${random.value}、${random.int}、${random.uuid}还可以使用之前已经配置的值如${person.age}
+  # 当前面的值没有值时，应当配置默认值${person.age:80}默认值为80
+  name: 张三${random.uuid}
+#  age: 18
+  boss: true
+  birth: 2020/10/10
+  maps: {k1: v1, K2: v2}
+  lists:
+   - lisi
+   - zhaosi
+   - ${person.age:90}
+  dog:
+    name: 旺财
+    age: 3
+    birth: 2010/12/12
+server:
+  port: 8080
+
+
+
+

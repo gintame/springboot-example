@@ -1,0 +1,13 @@
+person:
+  name: 张三
+  age: 18
+  boss: true
+  birth: 2020/10/10
+  maps: {k1: v1, K2: v2}
+  lists:
+   - lisi
+   - zhaosi
+  dog:
+    name: 旺财
+    age: 3
+    birth: 2010/12/12
